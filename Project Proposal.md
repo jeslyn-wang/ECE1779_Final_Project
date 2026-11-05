@@ -27,3 +27,6 @@ Additionally, a community-driven discovery platform can help increase visibility
 
 ## System Diagram
 ![Logo](https://github.com/jeslyn-wang/ECE1779_Final_Project/blob/main/Architecture.png)
+
+## Database Schema Design
+![Logo](https://github.com/jeslyn-wang/ECE1779_Final_Project/blob/main/Schema.png)
