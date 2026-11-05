@@ -21,3 +21,9 @@ Eating is inherently a social activity. From sitting down with your family at di
 We believe restaurant discovery can be more engaging when it is treated as a social experience rather than simply a search for the highest-rated establishment. By making it easier to document dining experiences, share opinions with friends, and discover restaurants through community recommendations, our platform aims to extend the social aspect of dining beyond the restaurant itself.
 
 Additionally, a community-driven discovery platform can help increase visibility for local Toronto restaurants and help users make more informed dining decisions.
+
+
+# Architecture
+
+## System Diagram
+<img src="project/Architecture.png" alt="system architecture">
