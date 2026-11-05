@@ -26,4 +26,4 @@ Additionally, a community-driven discovery platform can help increase visibility
 # Architecture
 
 ## System Diagram
-![image](project/Architecture.png)
+![Logo](https://github.com/jeslyn-wang/ECE1779_Final_Project/blob/main/Architecture.png)
