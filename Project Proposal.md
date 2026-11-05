@@ -6,7 +6,7 @@
 
 Discovering and keeping track of restaurants can be overwhelming, especially in Toronto where there is seemingly a different restaurant around every corner. While existing platforms have taken their own approaches to addressing this issue, they leave a gap for a socially-driven and personalized experience. 
 
-For example, Google Maps provides extensive information about restaurants including ratings, reviews, photos, etc., but its approach to restaurant discovery primarily uses a location-based search and doesn’t take into account personal taste or shared interest with a user’s social circle. Another example is Beli, which uses a much more personalized experience through user rankings and social recommendations but it uses an ELO-style ranking to compare restaurants even if they are from different cuisines and price ranges. 
+For example, [Google Maps](https://support.google.com/maps/answer/4610185/?co=GENIE.Platform=Desktop&utm) provides extensive information about restaurants including ratings, reviews, photos, etc., but its approach to restaurant discovery primarily uses a location-based search and doesn’t take into account personal taste or shared interest with a user’s social circle. Another example is [Beli](https://beliapp.com/), which uses a much more personalized experience through user rankings and social recommendations but it uses an ELO-style ranking to compare restaurants even if they are from different cuisines and price ranges. 
 
 Given the current climate of the restaurant discovery problem, the team believes there is an opportunity to develop a service that addresses this through a social-first lens, allowing people to engage with the rest of their community while finding where to eat next. 
 
