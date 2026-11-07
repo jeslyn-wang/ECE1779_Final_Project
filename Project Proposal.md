@@ -67,3 +67,51 @@ External Service API Integration, the application will integrate an external ser
 The minimum viable product is limited to authentication, restaurant listings and details, ratings, reviews, PostgreSQL, and a working cloud deployment. The team will prioritize a complete end-to-end user flow before optional features. This is feasible because it uses a conventional web architecture and a small number of deployable components.
 
 Key risks include cloud costs, Kubernetes configuration, database connectivity, and integration delays. The team will check pricing before provisioning resources, agree on API contracts and environment-variable names early, use Compose for local integration, and deploy a basic version to DOKS before adding advanced features. 
+
+# Project Plan and Team Responsibilities
+
+## Development Plan
+
+The team will follow an iterative development approach, with tasks divided across frontend development, backend implementation, database integration, and cloud deployment.
+
+| Timeline | Tasks |
+|---|---|
+| Nov 5–7 | Finalize proposal, architecture, project scope, and responsibilities. |
+| Nov 8–11 | Set up GitHub repository, Docker Compose environment, PostgreSQL schema, and API contracts. |
+| Nov 12–17 | Develop frontend, backend APIs, authentication, restaurant listings, search, ratings, and reviews. |
+| Nov 18–20 | Integrate frontend and backend, database functionality, and Google Places API. |
+| Nov 21–24 | Deploy to DigitalOcean Kubernetes (DOKS), configure Block Storage PVCs, and implement monitoring. |
+| Nov 25–Dec 4 | Complete CI/CD, test advanced features, resolve issues, and prepare documentation and presentation materials. |
+
+## Team Responsibilities
+
+The proposed division of responsibilities is:
+
+| Team Member | Responsibilities |
+|---|---|
+| Jeslyn | Motivation, user requirements, frontend development, and UI design. |
+| Joshi | Node.js/Express backend, REST APIs, application logic, and database integration. |
+| Wasilat | Docker, Kubernetes deployment, DigitalOcean infrastructure, persistent storage, and monitoring. |
+| Sree | Project planning and coordination, initial restaurant data and external API exploration, AI-assisted research, and integration/documentation support. |
+
+Responsibilities may overlap as needed during integration and testing.
+
+## Collaboration and Risk Management
+
+The team will use GitHub for version control, with separate branches and pull requests to track contributions and review changes. API contracts, database schemas, and environment configurations will be agreed upon early to reduce integration issues.
+
+Key risks include cloud infrastructure costs, Kubernetes configuration complexity, Google Places API quotas, and integration delays. These will be addressed through early testing, cost monitoring, and incremental deployment.
+
+# Initial Team Reasoning and AI-Assisted Exploration
+
+## Initial Reasoning
+
+The team identified an opportunity to build a social restaurant discovery platform focused on Toronto. The initial concept combined restaurant search and ratings with community-driven recommendations.
+
+Early discussions considered:
+- Building a web application rather than a mobile application to keep development manageable.
+- Using PostgreSQL to manage users, restaurants, reviews, follows, and collections.
+- Using Docker and cloud infrastructure to support deployment and scalability.
+- Collecting information for approximately 200–300 Toronto restaurants through external data sources.
+- Comparing DigitalOcean and Fly.io, and evaluating Docker Swarm versus Kubernetes.
+- Determining how to implement persistent storage and select suitable advanced features.
