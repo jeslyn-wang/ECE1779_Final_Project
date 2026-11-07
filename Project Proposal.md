@@ -2,7 +2,7 @@
 
 # Motivation
 
-## The Problem
+### The Problem
 
 Discovering and keeping track of restaurants can be overwhelming, especially in Toronto where there is seemingly a different restaurant around every corner. While existing platforms have taken their own approaches to addressing this issue, they leave a gap for a socially-driven and personalized experience. 
 
@@ -10,11 +10,11 @@ For example, [Google Maps](https://support.google.com/maps/answer/4610185/?co=GE
 
 Given the current climate of the restaurant discovery problem, the team believes there is an opportunity to develop a service that addresses this through a social-first lens, allowing people to engage with the rest of their community while finding where to eat next. 
 
-## Intended Users
+### Intended Users
 
 Our primary target users are Toronto residents who enjoy exploring new restaurants, sharing dining experiences, and discovering places through recommendations from people with similar interests.
 
-## Significance
+### Significance
 
 Eating is inherently a social activity. From sitting down with your family at dinner to going to a restaurant to celebrate a milestone, the act of eating good food encompasses a large part of our social experiences. However, opportunities to share these experiences and discover new places together are increasingly mediated by fragmented online platforms. 
 
