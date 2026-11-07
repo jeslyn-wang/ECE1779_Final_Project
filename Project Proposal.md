@@ -89,9 +89,9 @@ The proposed division of responsibilities is:
 
 | Team Member | Responsibilities |
 |---|---|
-| Jeslyn | Motivation, user requirements, frontend development, and UI design. |
-| Joshi | Node.js/Express backend, REST APIs, application logic, and database integration. |
-| Wasilat | Docker, Kubernetes deployment, DigitalOcean infrastructure, persistent storage, and monitoring. |
+| Jeslyn | Architecture Design, Motivation, Docker, Kubernetes deployment, DigitalOcean infrastructure, persistent storage, and monitoring. |
+| Joshi | Architecture Design, Node.js/Express backend, REST APIs, application logic, and database integration. |
+| Wasilat | Architecture Design, User requirements, frontend development, and UI design. |
 | Sree | Project planning and coordination, initial restaurant data and external API exploration, AI-assisted research, and integration/documentation support. |
 
 Responsibilities may overlap as needed during integration and testing.
