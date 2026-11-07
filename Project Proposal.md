@@ -1,8 +1,11 @@
 # ECE1779_Final_Project
 
 Wasilat Ayinla - 1013902948
+
 Siddharth Joshi - 1012878986
+
 Sree Mukund Vegi - 1006832741
+
 Jeslyn Wang - 1007915838
 
 # Motivation
