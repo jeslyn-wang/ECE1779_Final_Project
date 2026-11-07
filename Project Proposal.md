@@ -115,3 +115,9 @@ Early discussions considered:
 - Collecting information for approximately 200–300 Toronto restaurants through external data sources.
 - Comparing DigitalOcean and Fly.io, and evaluating Docker Swarm versus Kubernetes.
 - Determining how to implement persistent storage and select suitable advanced features.
+
+## AI-Assisted Exploration
+
+AI tools were used to explore architectural options, compare deployment platforms, and identify potential implementation challenges. The team considered the trade-offs between DigitalOcean and Fly.io, as well as Docker Swarm and Kubernetes. These discussions helped inform the decision to use DigitalOcean Kubernetes (DOKS). AI-assisted exploration also helped the team investigate potential deployment, integration, and cost-related challenges.
+
+The team evaluated these suggestions against the course requirements, project timeline, and available resources before incorporating them into the proposed architecture. AI was used as a research and planning aid; final technical decisions remain the responsibility of the team.
