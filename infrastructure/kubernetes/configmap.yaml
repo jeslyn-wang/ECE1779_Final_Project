@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: ece1779
+data:
+  POSTGRES_DB: restaurant_app
+  POSTGRES_USER: restaurant_user
+  DATABASE_HOST: postgres
+  DATABASE_PORT: "5432"
