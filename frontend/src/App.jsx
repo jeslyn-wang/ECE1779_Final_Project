@@ -1,30 +1,32 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout.jsx";
+import RequireAuth from "./auth/RequireAuth.jsx";
+import DiscoverPage from "./pages/DiscoverPage.jsx";
+import RestaurantPage from "./pages/RestaurantPage.jsx";
+import FeedPage from "./pages/FeedPage.jsx";
+import ProfilePage from "./pages/ProfilePage.jsx";
+import AuthPage from "./pages/AuthPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 
 export default function App() {
-  const [apiStatus, setApiStatus] = useState("Checking backend...");
-
-  useEffect(() => {
-    fetch("/api/health")
-      .then((response) => {
-        if (!response.ok) throw new Error("Backend health check failed");
-        return response.json();
-      })
-      .then((data) => setApiStatus(`Backend: ${data.status}; database: ${data.database}`))
-      .catch(() => setApiStatus("Backend unavailable"));
-  }, []);
-
   return (
-    <main className="page">
-      <section className="welcome-card">
-        <p className="eyebrow">ECE1779 · TEAM PROJECT</p>
-        <h1>Restaurant discovery, made social.</h1>
-        <p className="intro">
-          This is the starter frontend. Replace this screen with the team's
-          restaurant discovery experience.
-        </p>
-        <p className="status" aria-live="polite">{apiStatus}</p>
-      </section>
-    </main>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<DiscoverPage />} />
+        <Route path="restaurants/:id" element={<RestaurantPage />} />
+        <Route path="users/:id" element={<ProfilePage />} />
+        <Route
+          path="feed"
+          element={
+            <RequireAuth>
+              <FeedPage />
+            </RequireAuth>
+          }
+        />
+        <Route path="login" element={<AuthPage mode="login" key="login" />} />
+        <Route path="signup" element={<AuthPage mode="signup" key="signup" />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
+    </Routes>
   );
 }
