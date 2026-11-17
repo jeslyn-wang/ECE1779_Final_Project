@@ -1,5 +1,7 @@
+
 import express from "express";
 import { pool } from "./db.js";
+import restaurantsRouter from "./routes/restaurants.js";
 
 const app = express();
 
@@ -24,10 +26,15 @@ app.get("/api/health", async (_req, res) => {
   }
 });
 
-// TODO: Mount feature routes here, e.g. restaurants, reviews, users, follows.
+// Feature routes
+app.use("/api/restaurants", restaurantsRouter);
 
+// Return 404 for unknown routes
 app.use((req, res) => {
-  res.status(404).json({ error: "Route not found", path: req.path });
+  res.status(404).json({
+    error: "Route not found",
+    path: req.path
+  });
 });
 
 export default app;
