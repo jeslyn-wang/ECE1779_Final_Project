@@ -129,4 +129,34 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// GET /api/restaurants/:id/reviews
+router.get("/:id/reviews", async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const result = await pool.query(
+      `
+      SELECT
+        reviews.id,
+        reviews.user_id,
+        reviews.restaurant_id,
+        reviews.rating,
+        reviews.body,
+        reviews.created_at,
+        users.display_name
+      FROM reviews
+      JOIN users ON users.id = reviews.user_id
+      WHERE reviews.restaurant_id = $1
+      ORDER BY reviews.created_at DESC
+      `,
+      [id]
+    );
+
+    res.json({ reviews: result.rows });
+  } catch (error) {
+    console.error("Error fetching restaurant reviews:", error);
+    res.status(500).json({ error: "Failed to fetch restaurant reviews" });
+  }
+});
+
 export default router;
