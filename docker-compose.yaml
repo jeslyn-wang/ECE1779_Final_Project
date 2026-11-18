@@ -10,7 +10,7 @@ services:
       - "${POSTGRES_PORT:-5432}:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./database/init:/docker-entrypoint-initdb.d:ro
+      - ./database:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
       interval: 5s
@@ -24,7 +24,7 @@ services:
     environment:
       NODE_ENV: development
       PORT: 3000
-      DATABASE_URL: postgres://${POSTGRES_USER:-restaurant_user}:${POSTGRES_PASSWORD:-change_me_locally}@db:5432/${POSTGRES_DB:-restaurant_app}
+      DATABASE_URL: postgres://${POSTGRES_USER:-restaurant_user}:${POSTGRES_PASSWORD:-password}@db:5432/${POSTGRES_DB:-restaurant_app}
     ports:
       - "${BACKEND_PORT:-3000}:3000"
     depends_on:
