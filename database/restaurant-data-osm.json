@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "'Ono Poké Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6169559048
+  },
+  {
+    "name": "#DESI",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12849821822
+  },
+  {
+    "name": "% Arabica",
+    "address": "3401 Dufferin Street, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2018924094
+  },
+  {
+    "name": "% Arabica",
+    "address": "25 The West Mall, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6323402036
+  },
+  {
+    "name": "% Arabica",
+    "address": "Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11072183535
+  },
+  {
+    "name": "1 Plus 1 Pizza",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7581385501
+  },
+  {
+    "name": "10 Dean",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 9176691521
+  },
+  {
+    "name": "100% Salvoradeno",
+    "address": "Toronto, ON",
+    "cuisine": "Latin American",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7574259924
+  },
+  {
+    "name": "12 Tables Restaurant",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7560316733
+  },
+  {
+    "name": "156 OneFiveSix",
+    "address": "1100 Queen Street West, Toronto, ON",
+    "cuisine": "Fusion",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 14391956106
+  },
+  {
+    "name": "18 Feet",
+    "address": "86 Gerrard Street East, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13048879230
+  },
+  {
+    "name": "18feet",
+    "address": "Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 845505194
+  },
+  {
+    "name": "18feet Espresso Bar & The Cheong",
+    "address": "1967 Yonge Street, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 9722661997
+  },
+  {
+    "name": "1910 La Mexicana Sabor A Patria",
+    "address": "993 Bloor Street West, Toronto, ON",
+    "cuisine": "Mexican",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6344075534
+  },
+  {
+    "name": "2 Cats Cocktail Lounge",
+    "address": "569 King Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3587014129
+  },
+  {
+    "name": "2 for 1 Pizza",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6318936252
+  },
+  {
+    "name": "2 for 3 Pizza",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1906274424
+  },
+  {
+    "name": "20 Doner Bar-Grill",
+    "address": "Toronto, ON",
+    "cuisine": "Kebab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6342148795
+  },
+  {
+    "name": "241 Pizza",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 380199501
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1383 Davenport Road, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 474961238
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1349 St. Clair Avenue West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 502704910
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1016 Gerrard Street East, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 512544209
+  },
+  {
+    "name": "241 Pizza",
+    "address": "3155 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 544554114
+  },
+  {
+    "name": "241 Pizza",
+    "address": "759 Jane Street, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 557789203
+  },
+  {
+    "name": "241 Pizza",
+    "address": "3815 Lake Shore Boulevard West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1849979585
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1055 Bloor Street West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2201111015
+  },
+  {
+    "name": "241 Pizza",
+    "address": "142 Parliament Street, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2295848811
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1756 Lawrence Avenue East, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5220318997
+  },
+  {
+    "name": "241 Pizza",
+    "address": "451 Parliament Street, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5779417054
+  },
+  {
+    "name": "241 Pizza",
+    "address": "2372 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5919165043
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1468 Queen Street West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6493349397
+  },
+  {
+    "name": "241 Pizza",
+    "address": "1 York Gate Boulevard, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 1206973325
+  },
+  {
+    "name": "244 Pizza & Wings",
+    "address": "1164 Weston Road, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6342175913
+  },
+  {
+    "name": "24Seven Lounge",
+    "address": "106 Humber College Boulevard, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 881723535
+  },
+  {
+    "name": "3 Brewers",
+    "address": "275 Yonge Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 515618892
+  },
+  {
+    "name": "3 Brewers",
+    "address": "Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4362723894
+  },
+  {
+    "name": "3 Eggs",
+    "address": "936 Eglinton Avenue West, Toronto, ON",
+    "cuisine": "Breakfast",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7557448788
+  },
+  {
+    "name": "3 Kings Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7751944165
+  },
+  {
+    "name": "3030",
+    "address": "3030 Dundas Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2623084485
+  },
+  {
+    "name": "33 Beefsteak Tantuni Grill Lounge",
+    "address": "901 Jane Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2809875143
+  },
+  {
+    "name": "360 Cooking Studio",
+    "address": "1982 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 709877874
+  },
+  {
+    "name": "360 Restaurant",
+    "address": "290 Bremner Boulevard, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11026053456
+  },
+  {
+    "name": "367 Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7775603863
+  },
+  {
+    "name": "3A Noodle",
+    "address": "Toronto, ON",
+    "cuisine": "Noodle",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13097353506
+  },
+  {
+    "name": "3rd Mom Hot Pot",
+    "address": "261 Spadina Avenue, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6483209294
+  },
+  {
+    "name": "3rd Mom Spicy Hot Pot",
+    "address": "39 Spring Garden Avenue, Toronto, ON",
+    "cuisine": "Chinese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13785750401
+  },
+  {
+    "name": "3SK Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7557459425
+  },
+  {
+    "name": "416",
+    "address": "718 College Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5720624223
+  },
+  {
+    "name": "416 Snack Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12996582458
+  },
+  {
+    "name": "43° N BBQ Bar",
+    "address": "5287 Yonge Street, Toronto, ON",
+    "cuisine": "Chinese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6621660671
+  },
+  {
+    "name": "4894 Dundas Food Pickup Uber Eats DoorDash Skip",
+    "address": "4894 Dundas Street West, Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12838467521
+  },
+  {
+    "name": "4AM Bar & Lounge",
+    "address": "4664 Yonge Street, Toronto, ON",
+    "cuisine": "Lounge",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5345553367
+  },
+  {
+    "name": "4C",
+    "address": "Toronto, ON",
+    "cuisine": "Chicken",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7750355189
+  },
+  {
+    "name": "4C Broast Chicken",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10600189104
+  },
+  {
+    "name": "4Ever Sushi",
+    "address": "225 Queen Street West, Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6416513568
+  },
+  {
+    "name": "4u2 Shawarma",
+    "address": "Toronto, ON",
+    "cuisine": "Kebab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7048255485
+  },
+  {
+    "name": "5 Elements Espresso Bar",
+    "address": "131 Avenue Road, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2620465252
+  },
+  {
+    "name": "5 Points",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 639843862
+  },
+  {
+    "name": "5 Spices",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2833168714
+  },
+  {
+    "name": "521 Cafe & Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13013615441
+  },
+  {
+    "name": "55 Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3838168723
+  },
+  {
+    "name": "555 Boat Noodles",
+    "address": "2 Grosvenor Street, Toronto, ON",
+    "cuisine": "Thai",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1157114350
+  },
+  {
+    "name": "555 Boat Noodles",
+    "address": "5308 Yonge Street, Toronto, ON",
+    "cuisine": "Chinese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6164966728
+  },
+  {
+    "name": "6 Cloud",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13859022664
+  },
+  {
+    "name": "6ix Pizza",
+    "address": "2070 Queen Street East, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10028790560
+  },
+  {
+    "name": "6ixdonutz",
+    "address": "83 Portland Street, Toronto, ON",
+    "cuisine": "Donut",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12877255958
+  },
+  {
+    "name": "6ixty Wings",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6551628668
+  },
+  {
+    "name": "6ixWings",
+    "address": "2950 Birchmount Road, Toronto, ON",
+    "cuisine": "Chicken",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 14275351301
+  },
+  {
+    "name": "6Thirty Coffee and Co.",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13013621507
+  },
+  {
+    "name": "7 Noodles",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 14209701328
+  },
+  {
+    "name": "7 Numbers",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5634148125
+  },
+  {
+    "name": "7 West",
+    "address": "7 Charles Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2701283277
+  },
+  {
+    "name": "7 Wonders Fine Foods",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3254679450
+  },
+  {
+    "name": "70 Down Yorkville",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4509276304
+  },
+  {
+    "name": "817 Sports Bar & Grill",
+    "address": "817 Queen Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 527025686
+  },
+  {
+    "name": "850 Degrees",
+    "address": "2197 Bloor Street West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 14181949515
+  },
+  {
+    "name": "850° Pizzeria",
+    "address": "3455 Lake Shore Boulevard West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2153230522
+  },
+  {
+    "name": "876 Jamrock Restaurant",
+    "address": "6210 Finch Avenue West, Toronto, ON",
+    "cuisine": "Caribbean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6334287537
+  },
+  {
+    "name": "9 Mile Jamaican and International Cuisine",
+    "address": "1334 Bloor Street West, Toronto, ON",
+    "cuisine": "Caribbean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12840889233
+  },
+  {
+    "name": "9 Sips Tea Shoppe",
+    "address": "32 Edward Street, Toronto, ON",
+    "cuisine": "Tea",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13231929368
+  },
+  {
+    "name": "955Chinesefood.com",
+    "address": "2252 Queen Street East, Toronto, ON",
+    "cuisine": "Chinese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10159937575
+  },
+  {
+    "name": "99 Bottles",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12295956977
+  },
+  {
+    "name": "99 Sushi",
+    "address": "172 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1392109023
+  },
+  {
+    "name": "999 Sushi",
+    "address": "Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12790617386
+  },
+  {
+    "name": "A BBQ House",
+    "address": "664 Yonge Street, Toronto, ON",
+    "cuisine": "Korean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 577454513
+  },
+  {
+    "name": "A Corner Cafe",
+    "address": "5193 Yonge Street, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5594977293
+  },
+  {
+    "name": "A Dark Horse",
+    "address": "2401 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2288606555
+  },
+  {
+    "name": "A Sezchuan Restaurant",
+    "address": "440 Spadina Avenue, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3079082838
+  },
+  {
+    "name": "A-ok Cafe",
+    "address": "50 Bloor Street West, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10671895841
+  },
+  {
+    "name": "A-ok Cafe",
+    "address": "25 The West Mall, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10672000272
+  },
+  {
+    "name": "A-OK Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13869720221
+  },
+  {
+    "name": "a! Xiang Noodle",
+    "address": "Midland Avenue, Toronto, ON",
+    "cuisine": "Chinese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5987043919
+  },
+  {
+    "name": "A&W",
+    "address": "85 Front Street East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 380041145
+  },
+  {
+    "name": "A&W",
+    "address": "Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 394180405
+  },
+  {
+    "name": "A&W",
+    "address": "372 Queen Street West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 401521684
+  },
+  {
+    "name": "A&W",
+    "address": "1896 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 409158425
+  },
+  {
+    "name": "A&W",
+    "address": "659 Dupont Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 410983906
+  },
+  {
+    "name": "A&W",
+    "address": "2300 Yonge Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 567253467
+  },
+  {
+    "name": "A&W",
+    "address": "35 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1038839016
+  },
+  {
+    "name": "A&W",
+    "address": "1496 Queen Street West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1733858215
+  },
+  {
+    "name": "A&W",
+    "address": "3401 Dufferin Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2018905199
+  },
+  {
+    "name": "A&W",
+    "address": "3214 Lake Shore Boulevard West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2625364668
+  },
+  {
+    "name": "A&W",
+    "address": "2858 Dundas Street West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2819797456
+  },
+  {
+    "name": "A&W",
+    "address": "8 Mercer Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4245215711
+  },
+  {
+    "name": "A&W",
+    "address": "3571 Sheppard Avenue East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4894162569
+  },
+  {
+    "name": "A&W",
+    "address": "260 Yonge Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5699582331
+  },
+  {
+    "name": "A&W",
+    "address": "361 Broadview Avenue, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5774101024
+  },
+  {
+    "name": "A&W",
+    "address": "650.5 Queen Street West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5837375559
+  },
+  {
+    "name": "A&W",
+    "address": "357 Church Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6148830572
+  },
+  {
+    "name": "A&W",
+    "address": "500 Bloor Street West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6336529573
+  },
+  {
+    "name": "A&W",
+    "address": "1115 Bloor Street West, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6339032865
+  },
+  {
+    "name": "A&W",
+    "address": "1277 York Mills Road, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6542992473
+  },
+  {
+    "name": "A&W",
+    "address": "2692 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6762402710
+  },
+  {
+    "name": "A&W",
+    "address": "167 Church Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 9007421202
+  },
+  {
+    "name": "A&W",
+    "address": "2004 Queen Street East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10032346468
+  },
+  {
+    "name": "A&W",
+    "address": "875 Queen Street East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11766725411
+  },
+  {
+    "name": "A&W",
+    "address": "2500 Sheppard Avenue East, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13094886372
+  },
+  {
+    "name": "A&W",
+    "address": "462 Church Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13194794031
+  },
+  {
+    "name": "A&W",
+    "address": "505 Jarvis Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13935487031
+  },
+  {
+    "name": "A&W",
+    "address": "1638 Avenue Road, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 789305206
+  },
+  {
+    "name": "A1 Stone Pot",
+    "address": "409 Spadina Avenue, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11803596921
+  },
+  {
+    "name": "Aaha",
+    "address": "250 Dundas Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 575209690
+  },
+  {
+    "name": "Aashro Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13094910965
+  },
+  {
+    "name": "Abbirami",
+    "address": "Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7745266378
+  },
+  {
+    "name": "Abol Espresso Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12997418457
+  },
+  {
+    "name": "Abrielle",
+    "address": "355 King Street West, Toronto, ON",
+    "cuisine": "Mediterranean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12305167810
+  },
+  {
+    "name": "Absolute Bakery & Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6371398864
+  },
+  {
+    "name": "Abugida Restaurant & Lounge",
+    "address": "1393 Danforth Avenue, Toronto, ON",
+    "cuisine": "Ethiopian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12997929536
+  },
+  {
+    "name": "Abyssinia",
+    "address": "884 Danforth Avenue, Toronto, ON",
+    "cuisine": "Ethiopian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13011543842
+  },
+  {
+    "name": "AC Ranch Caffe",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7578550207
+  },
+  {
+    "name": "Acacia Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3779624796
+  },
+  {
+    "name": "Açai Brazil",
+    "address": "2039 Yonge Street, Toronto, ON",
+    "cuisine": "Bubble Tea",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12770986189
+  },
+  {
+    "name": "Acapulco",
+    "address": "Toronto, ON",
+    "cuisine": "Mexican",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6491618242
+  },
+  {
+    "name": "Acme Burger Company",
+    "address": "735 The Queensway, Toronto, ON",
+    "cuisine": "B",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 279006971
+  },
+  {
+    "name": "Acqua Fine Foods",
+    "address": "671 The Queensway, Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3411753138
+  },
+  {
+    "name": "Acqua Supper Club",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 43810855
+  },
+  {
+    "name": "Actinolite Restaurant",
+    "address": "971 Ossington Avenue, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 803152707
+  },
+  {
+    "name": "Acute Pizzeria",
+    "address": "1745 Dundas Street West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2780200231
+  },
+  {
+    "name": "Adam's Rib",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1859464100
+  },
+  {
+    "name": "Adda",
+    "address": "Toronto, ON",
+    "cuisine": "Bangladeshi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12978892904
+  },
+  {
+    "name": "Addis Cafe",
+    "address": "Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12980100842
+  },
+  {
+    "name": "Addis Live",
+    "address": "860 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6340610303
+  },
+  {
+    "name": "Adega",
+    "address": "33 Elm Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5718244424
+  },
+  {
+    "name": "Adi Bikrampur",
+    "address": "2968 Danforth Avenue, Toronto, ON",
+    "cuisine": "Bangladeshi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13948804395
+  },
+  {
+    "name": "Adi Biryani & Kabab House",
+    "address": "Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12968478962
+  },
+  {
+    "name": "Adriano's Pizza and Pasta",
+    "address": "3329 Lake Shore Boulevard West, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1870614705
+  },
+  {
+    "name": "Affect Coffee",
+    "address": "283 Roncesvalles Avenue, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5508698021
+  },
+  {
+    "name": "Affrien Infian Restaurant",
+    "address": "55 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1901045478
+  },
+  {
+    "name": "Affy's Premium Grill",
+    "address": "55 Lebovic Avenue, Toronto, ON",
+    "cuisine": "Steak House",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5335884074
+  },
+  {
+    "name": "Afghan Kebob Cuisine",
+    "address": "Toronto, ON",
+    "cuisine": "Kebab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6328248454
+  },
+  {
+    "name": "Afiyet Shawarma",
+    "address": "1880 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Turkish",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2928271901
+  },
+  {
+    "name": "African Chop Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6352705195
+  },
+  {
+    "name": "African Delight",
+    "address": "1180 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 836343929
+  },
+  {
+    "name": "African Palace",
+    "address": "977 Bloor Street West, Toronto, ON",
+    "cuisine": "Ethiopian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 836352012
+  },
+  {
+    "name": "African Player Restaurant",
+    "address": "1297 Weston Road, Toronto, ON",
+    "cuisine": "African",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6342131194
+  },
+  {
+    "name": "Afro Continental Restaurant Bar & Grill",
+    "address": "849 Albion Road, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5706111821
+  },
+  {
+    "name": "Afro Spice",
+    "address": "Toronto, ON",
+    "cuisine": "African",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1131476962
+  },
+  {
+    "name": "Afro's Pizza",
+    "address": "107 Mutual Street, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 14100024673
+  },
+  {
+    "name": "Afrobeat Kitchen",
+    "address": "1510 Queen Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6493349392
+  },
+  {
+    "name": "AFURI Ramen + Dumpling",
+    "address": "411 Church Street, Toronto, ON",
+    "cuisine": "Ramen",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11114371984
+  },
+  {
+    "name": "Agak Agak Kopitiam",
+    "address": "253 Gerrard Street East, Toronto, ON",
+    "cuisine": "Singaporean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5799179253
+  },
+  {
+    "name": "Agenda Cafe",
+    "address": "622 College Street, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5717888821
+  },
+  {
+    "name": "Agio Ristorante",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4939314096
+  },
+  {
+    "name": "Agora",
+    "address": "921 Queen Street West, Toronto, ON",
+    "cuisine": "Greek",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5782985753
+  },
+  {
+    "name": "Ahmetzade",
+    "address": "Toronto, ON",
+    "cuisine": "Dessert",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 575245026
+  },
+  {
+    "name": "Ahmutha Surabi",
+    "address": "Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7766306295
+  },
+  {
+    "name": "Ai Sushi",
+    "address": "Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7734477568
+  },
+  {
+    "name": "Ai Taiker",
+    "address": "Toronto, ON",
+    "cuisine": "Taiwanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6177369819
+  },
+  {
+    "name": "Aifam Sandwich Shop",
+    "address": "102 Harbord Street, Toronto, ON",
+    "cuisine": "Italian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12978582636
+  },
+  {
+    "name": "Aish Tanoor Restaurant",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7557414636
+  },
+  {
+    "name": "Aisle 3",
+    "address": "2535 Dundas Street West, Toronto, ON",
+    "cuisine": "Vietnamese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12839272391
+  },
+  {
+    "name": "Aji Sai",
+    "address": "783 Danforth Avenue, Toronto, ON",
+    "cuisine": "Japanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13011557674
+  },
+  {
+    "name": "Ajisen Ramen",
+    "address": "5229 Yonge Street, Toronto, ON",
+    "cuisine": "Japanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5593236119
+  },
+  {
+    "name": "Ajisen Ramen Japanese Noodle",
+    "address": "332 Spadina Avenue, Toronto, ON",
+    "cuisine": "Japanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4621050703
+  },
+  {
+    "name": "Ajisen Ramen Scarborough",
+    "address": "3720 Midland Avenue, Toronto, ON",
+    "cuisine": "Ramen",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12190675553
+  },
+  {
+    "name": "Ajisen Ramens",
+    "address": "399 Church Street, Toronto, ON",
+    "cuisine": "Ramen",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6779672997
+  },
+  {
+    "name": "Ajismen Ramen",
+    "address": "2359 Yonge Street, Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7728474671
+  },
+  {
+    "name": "Ajwa Pizza",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12250879244
+  },
+  {
+    "name": "AK Timeout",
+    "address": "2407 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13625247212
+  },
+  {
+    "name": "AKA-ONI Ramen&Izakaya (Scarborough)",
+    "address": "633 Silver Star Boulevard, Toronto, ON",
+    "cuisine": "Japanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12190946450
+  },
+  {
+    "name": "Akai",
+    "address": "Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 305024784
+  },
+  {
+    "name": "Akami Sushi",
+    "address": "825 Dundas Street West, Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5723701221
+  },
+  {
+    "name": "Akaram",
+    "address": "Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6593940954
+  },
+  {
+    "name": "Akashiro",
+    "address": "Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6712340463
+  },
+  {
+    "name": "Akhigbe Nigerian Caterers",
+    "address": "236 Sherbourne Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7879339025
+  },
+  {
+    "name": "Aki Donburi",
+    "address": "793 Bathurst Street, Toronto, ON",
+    "cuisine": "Japanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6551628747
+  },
+  {
+    "name": "Al Jood",
+    "address": "1430 Queen Street West, Toronto, ON",
+    "cuisine": "Middle Eastern",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5794366153
+  },
+  {
+    "name": "Al Pa Cones",
+    "address": "Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1926338304
+  },
+  {
+    "name": "Al-Aruba Restaurant",
+    "address": "Toronto, ON",
+    "cuisine": "Somali",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6333522640
+  },
+  {
+    "name": "Al-Mani Grill & Biryani",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12986702984
+  },
+  {
+    "name": "Al-Meezan's Spicy Grill",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3930426861
+  },
+  {
+    "name": "Al's Shawarma",
+    "address": "1172 Weston Road, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13570764593
+  },
+  {
+    "name": "Ala Antioch",
+    "address": "Danforth Avenue, Toronto, ON",
+    "cuisine": "Turkish",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 10155708537
+  },
+  {
+    "name": "Alabon Libon Caribbean Cuisine",
+    "address": "Toronto, ON",
+    "cuisine": "Caribbean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7751469199
+  },
+  {
+    "name": "Aladdin Shawarma House",
+    "address": "Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13094910961
+  },
+  {
+    "name": "Alan Restaurant",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7557019461
+  },
+  {
+    "name": "Alba Sports Caffe",
+    "address": "392 Brown's Line, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1906061548
+  },
+  {
+    "name": "Albatros Pub",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1861622327
+  },
+  {
+    "name": "Albert's Real Jamaican Foods",
+    "address": "542 St. Clair Avenue West, Toronto, ON",
+    "cuisine": "Jamaican",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1286668878
+  },
+  {
+    "name": "Alder & The Sparrow Restaurant & Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4316539690
+  },
+  {
+    "name": "Aleeza's Pizza",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6341447874
+  },
+  {
+    "name": "Aleppo Kebab",
+    "address": "Toronto, ON",
+    "cuisine": "Kebab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7751651488
+  },
+  {
+    "name": "Alexander Falafel",
+    "address": "1233 Queen Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6495425616
+  },
+  {
+    "name": "Alexandria Cafe",
+    "address": "1940 Lawrence Avenue East, Toronto, ON",
+    "cuisine": "Egyptian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6100950765
+  },
+  {
+    "name": "Alexandros",
+    "address": "5 Queens Quay West, Toronto, ON",
+    "cuisine": "Greek",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1251456919
+  },
+  {
+    "name": "Alexandros",
+    "address": "Toronto, ON",
+    "cuisine": "Greek",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7781379313
+  },
+  {
+    "name": "Alexandros",
+    "address": "484 Danforth Avenue, Toronto, ON",
+    "cuisine": "Greek",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13061037602
+  },
+  {
+    "name": "Alfies",
+    "address": "36 Baldwin Street, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4621075577
+  },
+  {
+    "name": "Alforat Iraqi Street Food",
+    "address": "271 Yonge Street, Toronto, ON",
+    "cuisine": "Arab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1157113413
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "2246 Bloor Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 557775117
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "24 Wellesley Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1128856500
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "197 Dundas Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1282258352
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "2202 Dundas Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4379888988
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "1283 Bloor Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5022507085
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "901 King Street West, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5794386497
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6329900013
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "1878 Weston Road, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6341397538
+  },
+  {
+    "name": "Ali Baba's",
+    "address": "682 Queen Street East, Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13175505731
+  },
+  {
+    "name": "Ali Baba's Pita & Hummus",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13208941416
+  },
+  {
+    "name": "Ali's West Indian Roti Shop",
+    "address": "1446 Queen Street West, Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4610699781
+  },
+  {
+    "name": "Alice",
+    "address": "488 College Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5720527651
+  },
+  {
+    "name": "Alice's Place",
+    "address": "554 Parliament Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3475354263
+  },
+  {
+    "name": "ALK",
+    "address": "100 Broadview Avenue, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13294458793
+  },
+  {
+    "name": "All Spice Jerk Express",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13990377727
+  },
+  {
+    "name": "All Star Café",
+    "address": "285 Colborne Lodge Drive, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 318032889
+  },
+  {
+    "name": "All Start Bar & Eatery",
+    "address": "4180 Kingston Road, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11622259541
+  },
+  {
+    "name": "All-Star Wings & Ribs",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 608746068
+  },
+  {
+    "name": "all@ne",
+    "address": "687 Yonge Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1128901127
+  },
+  {
+    "name": "Allen's",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 420542936
+  },
+  {
+    "name": "Allwood",
+    "address": "1183 Queen Street East, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13281951970
+  },
+  {
+    "name": "Allwyn's",
+    "address": "404 Queen Street West, Toronto, ON",
+    "cuisine": "Caribbean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6419900830
+  },
+  {
+    "name": "Allwyn's Bakery",
+    "address": "976 The Queensway, Toronto, ON",
+    "cuisine": "Jamaican",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5794303492
+  },
+  {
+    "name": "Allwyn’s Bakery",
+    "address": "81 Underhill Drive, Toronto, ON",
+    "cuisine": "Jamaican",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 421328736
+  },
+  {
+    "name": "Alma",
+    "address": "1194 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2286832897
+  },
+  {
+    "name": "Almadina Bistro",
+    "address": "10 Edward Street, Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2704152653
+  },
+  {
+    "name": "Almond Butterfly",
+    "address": "100 Harbord Street, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 752192433
+  },
+  {
+    "name": "Almond Butterfly",
+    "address": "792 Dundas Street West, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6685521586
+  },
+  {
+    "name": "Alo",
+    "address": "163 Spadina Avenue, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6182234486
+  },
+  {
+    "name": "Alo Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5398684523
+  },
+  {
+    "name": "Alobar",
+    "address": "162 Cumberland Street, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6299735546
+  },
+  {
+    "name": "Aloette",
+    "address": "163 Spadina Avenue, Toronto, ON",
+    "cuisine": "French",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6182234485
+  },
+  {
+    "name": "Aloette Go",
+    "address": "2362 Yonge Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11147288173
+  },
+  {
+    "name": "Aloette Go",
+    "address": "81 Bay Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13226530856
+  },
+  {
+    "name": "Aloette Go",
+    "address": "171 East Liberty Street, Toronto, ON",
+    "cuisine": "Burger",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13915723237
+  },
+  {
+    "name": "Alpha's Shawarma",
+    "address": "598 Queen Street West, Toronto, ON",
+    "cuisine": "Middle Eastern",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4636338081
+  },
+  {
+    "name": "Alpha’s Shawarma",
+    "address": "Toronto, ON",
+    "cuisine": "Shawarma",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3587014128
+  },
+  {
+    "name": "Alpha’s Shawarma",
+    "address": "230 Queen Street West, Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6401675752
+  },
+  {
+    "name": "Alpha’s Shawarma",
+    "address": "245 Yonge Street, Toronto, ON",
+    "cuisine": "Arab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13302251501
+  },
+  {
+    "name": "Alppalachia",
+    "address": "2416 Lake Shore Boulevard West, Toronto, ON",
+    "cuisine": "Barbecue",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1906274321
+  },
+  {
+    "name": "Alternity",
+    "address": "333 Bloor Street West, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13117181662
+  },
+  {
+    "name": "Altona Kebob",
+    "address": "Toronto, ON",
+    "cuisine": "Kebab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2547670057
+  },
+  {
+    "name": "Aly's Pizza Time",
+    "address": "Toronto, ON",
+    "cuisine": "Pizza",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6593958653
+  },
+  {
+    "name": "am bagel",
+    "address": "53 Roncesvalles Avenue, Toronto, ON",
+    "cuisine": "Bagel",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6325961199
+  },
+  {
+    "name": "AM Coffee Studio",
+    "address": "2233 Dundas Street West, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6382301631
+  },
+  {
+    "name": "AMA",
+    "address": "930 Queen Street West, Toronto, ON",
+    "cuisine": "Argentinian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6201102932
+  },
+  {
+    "name": "Ama Ko Momo",
+    "address": "1228 King Street West, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6184565140
+  },
+  {
+    "name": "Ama Sushi",
+    "address": "Toronto, ON",
+    "cuisine": "Sushi",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1707648735
+  },
+  {
+    "name": "Amaana Cafe",
+    "address": "1774 Weston Road, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6341447871
+  },
+  {
+    "name": "Amal (Toronto)",
+    "address": "131 Bloor Street West, Toronto, ON",
+    "cuisine": "Lebanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12301643201
+  },
+  {
+    "name": "Amanecer Salvadoreño Restaurant",
+    "address": "2663 Islington Avenue, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5709168722
+  },
+  {
+    "name": "Amano",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12843075095
+  },
+  {
+    "name": "Amano Trattoria",
+    "address": "9 Church Street, Toronto, ON",
+    "cuisine": "Fine Dining",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2530014022
+  },
+  {
+    "name": "Amato Gyro",
+    "address": "429A Yonge Street, Toronto, ON",
+    "cuisine": "Mediterranean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 400974513
+  },
+  {
+    "name": "Amaya",
+    "address": "3401 Dufferin Street, Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2018905189
+  },
+  {
+    "name": "Amaya Express",
+    "address": "Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1141375398
+  },
+  {
+    "name": "Amazaing Shawarma",
+    "address": "2650 Lawrence Avenue East, Toronto, ON",
+    "cuisine": "Kebab",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3473859460
+  },
+  {
+    "name": "Amazing Donuts",
+    "address": "3499 Bathurst Street, Toronto, ON",
+    "cuisine": "Donut",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7553017344
+  },
+  {
+    "name": "Amazing Hakka",
+    "address": "Toronto, ON",
+    "cuisine": "Chinese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7750329978
+  },
+  {
+    "name": "Amazing Shawarma",
+    "address": "2928 Eglinton Avenue East, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 505186838
+  },
+  {
+    "name": "Ambassador Tavern",
+    "address": "946 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 803152543
+  },
+  {
+    "name": "Amber Kitchen and Coffee",
+    "address": "4 Boulton Avenue, Toronto, ON",
+    "cuisine": "Cafe",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13175505705
+  },
+  {
+    "name": "Amber Restaurant And Bar",
+    "address": "119 Yorkville Avenue, Toronto, ON",
+    "cuisine": "International",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4462028722
+  },
+  {
+    "name": "Ambiyan",
+    "address": "Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7792708273
+  },
+  {
+    "name": "Amelia's Market",
+    "address": "340 Westmoreland Avenue North, Toronto, ON",
+    "cuisine": "Sandwich",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12714515197
+  },
+  {
+    "name": "ami-no",
+    "address": "757 Dundas Street West, Toronto, ON",
+    "cuisine": "Japanese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5723391421
+  },
+  {
+    "name": "Amico Eatery",
+    "address": "2013 Yonge Street, Toronto, ON",
+    "cuisine": "Italian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 1110005151
+  },
+  {
+    "name": "Amigos Da Dundas Sports Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6820739719
+  },
+  {
+    "name": "Amma Mono House",
+    "address": "2326 Queen Street East, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11220803122
+  },
+  {
+    "name": "Amo's",
+    "address": "2014 Queen Street East, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5457410121
+  },
+  {
+    "name": "Amsterdam Barrel House",
+    "address": "87 Laird Drive, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 203172003
+  },
+  {
+    "name": "Amsterdam Bicycle Club",
+    "address": "54 The Esplanade, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 3056578291
+  },
+  {
+    "name": "Amsterdam Brew House",
+    "address": "245 Queens Quay West, Toronto, ON",
+    "cuisine": "American",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 26594773
+  },
+  {
+    "name": "Anchor Bar",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 4519732243
+  },
+  {
+    "name": "Andrew's Place",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7528973820
+  },
+  {
+    "name": "Anejo",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 495297093
+  },
+  {
+    "name": "Anejo",
+    "address": "26 Market Street, Toronto, ON",
+    "cuisine": "Mexican",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2894368367
+  },
+  {
+    "name": "Añejo",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12290457358
+  },
+  {
+    "name": "Angie's",
+    "address": "Toronto, ON",
+    "cuisine": "Caribbean",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 7745285588
+  },
+  {
+    "name": "Angus Pho House",
+    "address": "5443 Yonge Street, Toronto, ON",
+    "cuisine": "Vietnamese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5721283775
+  },
+  {
+    "name": "Anh Dao",
+    "address": "383 Spadina Avenue, Toronto, ON",
+    "cuisine": "Vietnamese",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 11388829433
+  },
+  {
+    "name": "Anjappar Chettinad",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "way",
+    "osmId": 660633971
+  },
+  {
+    "name": "Annabelle Pasta Bar",
+    "address": "909 Davenport Road, Toronto, ON",
+    "cuisine": "Italian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12714597988
+  },
+  {
+    "name": "Annalakshmi",
+    "address": "Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 12312261159
+  },
+  {
+    "name": "Annalakshmi",
+    "address": "250 Alton Towers Circle, Toronto, ON",
+    "cuisine": "Indian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 14071120626
+  },
+  {
+    "name": "Annette Food Market",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13012884633
+  },
+  {
+    "name": "Annex Billiard Club",
+    "address": "507 Bloor Street West, Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 575245031
+  },
+  {
+    "name": "Annona Restaurant",
+    "address": "Toronto, ON",
+    "cuisine": "Restaurant",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 2481616688
+  },
+  {
+    "name": "Another Land Coffee",
+    "address": "4708 Yonge Street, Toronto, ON",
+    "cuisine": "Coffee Shop",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 13913042984
+  },
+  {
+    "name": "Anti Vice Juicery",
+    "address": "853 College Street, Toronto, ON",
+    "cuisine": "Fast Food",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 5437544823
+  },
+  {
+    "name": "Antler Kitchen & Bar",
+    "address": "1454 Dundas Street West, Toronto, ON",
+    "cuisine": "Canadian",
+    "neighbourhood": null,
+    "priceLevel": null,
+    "googlePlaceId": null,
+    "osmType": "node",
+    "osmId": 6820739730
+  }
+]
