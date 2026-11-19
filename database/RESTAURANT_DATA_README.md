@@ -1,6 +1,6 @@
 # Toronto restaurant data
 
-This directory contains standalone work for Sree's restaurant-data responsibility. These files do not modify the application's existing schemas or startup scripts.
+This directory contains standalone work for restaurant-data responsibility. 
 
 ## Current data file
 
