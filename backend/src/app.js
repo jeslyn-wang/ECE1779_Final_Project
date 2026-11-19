@@ -2,6 +2,7 @@
 import express from "express";
 import { pool } from "./db.js";
 import restaurantsRouter from "./routes/restaurants.js";
+import meRouter from "./routes/me.js";
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.get("/api/health", async (_req, res) => {
 
 // Feature routes
 app.use("/api/restaurants", restaurantsRouter);
+app.use("/api/me", meRouter);
 
 // Return 404 for unknown routes
 app.use((req, res) => {
@@ -35,6 +37,12 @@ app.use((req, res) => {
     error: "Route not found",
     path: req.path
   });
+});
+
+// Anything a route didn't catch: log it, return a generic 500
+app.use((error, _req, res, _next) => {
+  console.error("Unhandled error:", error);
+  res.status(500).json({ error: "Something went wrong on our side." });
 });
 
 export default app;

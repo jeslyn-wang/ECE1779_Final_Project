@@ -25,6 +25,8 @@ services:
       NODE_ENV: development
       PORT: 3000
       DATABASE_URL: postgres://${POSTGRES_USER:-restaurant_user}:${POSTGRES_PASSWORD:-password}@db:5432/${POSTGRES_DB:-restaurant_app}
+      FIREBASE_PROJECT_ID: ${FIREBASE_PROJECT_ID:-}
+      AUTH_DEV_BYPASS: ${AUTH_DEV_BYPASS:-false}
     ports:
       - "${BACKEND_PORT:-3000}:3000"
     depends_on:
