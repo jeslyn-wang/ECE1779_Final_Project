@@ -1,6 +1,6 @@
 # Sree integration checklist
 
-This document records standalone analysis and work for the restaurant data and integration portion of the project. No existing team files were modified.
+This document records standalone analysis and work for the restaurant data and integration portion of the project. 
 
 ## Work added
 
@@ -10,16 +10,6 @@ This document records standalone analysis and work for the restaurant data and i
 - `backend/scripts/build_restaurants_osm.js`: repeatable OpenStreetMap Toronto restaurant builder requiring no API key
 - `database/restaurant-data-osm.json`: expanded 300-record Toronto dataset from OpenStreetMap
 - `database/OSM_DATA_SOURCE.md`: source, method, limitations, verification needs, and import instructions
-
-## Before final integration
-
-1. Review the OpenStreetMap expansion; remove unsuitable cafés/bars and records that are not restaurants or are closed.
-2. Optionally use Google Places enrichment later for live-address and price verification, but it is not required for the current dataset.
-3. Review the 300 OSM records toward the proposed 200–300 restaurant target and normalize duplicate branches and cuisine labels.
-4. Ask Joshi to add the proposed optional restaurant columns and update restaurant API response fields.
-5. Coordinate cuisine values with Wasilat's frontend filters so they remain exact and consistent.
-6. Ask Jeslyn to include the API key only in the import environment, not in the frontend build or browser.
-7. Test the import against a disposable Docker Compose database before production.
 
 ## API fields to preserve
 
