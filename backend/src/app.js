@@ -4,6 +4,8 @@ import { pool } from "./db.js";
 import restaurantsRouter from "./routes/restaurants.js";
 import meRouter from "./routes/me.js";
 import reviewsRouter from "./routes/reviews.js";
+import usersRouter from "./routes/users.js";
+import feedRouter from "./routes/feed.js";
 
 const app = express();
 
@@ -32,6 +34,8 @@ app.get("/api/health", async (_req, res) => {
 app.use("/api/restaurants", restaurantsRouter);
 app.use("/api/me", meRouter);
 app.use("/api/reviews", reviewsRouter);
+app.use("/api/users", usersRouter);
+app.use("/api/feed", feedRouter);
 
 // Return 404 for unknown routes
 app.use((req, res) => {
