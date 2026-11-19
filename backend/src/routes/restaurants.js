@@ -1,6 +1,8 @@
 import express from "express";
 import { pool } from "../db.js";
+import { requireAuth } from "../middleware/auth.js";
 import { parseId, RESTAURANT_COLUMNS, toRestaurant, REVIEW_SELECT, toReview } from "../lib/shapes.js";
+import { validateReviewInput } from "../lib/reviewInput.js";
 
 const router = express.Router();
 
@@ -144,6 +146,35 @@ router.get("/:id/reviews", async (req, res) => {
   } catch (error) {
     console.error("Error fetching restaurant reviews:", error);
     res.status(500).json({ error: "Failed to fetch restaurant reviews." });
+  }
+});
+// POST /api/restaurants/:id/reviews  🔒  { rating, body }  -> 201 { review }
+// 409 if this user already reviewed this restaurant (they should edit it instead).
+router.post("/:id/reviews", requireAuth, async (req, res) => {
+  const restaurantId = parseId(req.params.id);
+  if (restaurantId === null) return res.status(404).json({ error: "Restaurant not found." });
+
+  const { value, errors } = validateReviewInput(req.body);
+  if (errors) return res.status(400).json({ error: "Please fix the highlighted fields.", errors });
+
+  try {
+    const inserted = await pool.query(
+      `INSERT INTO reviews (user_id, restaurant_id, rating, body) VALUES ($1, $2, $3, $4) RETURNING id`,
+      [req.user.id, restaurantId, value.rating, value.body]
+    );
+    const result = await pool.query(`${REVIEW_SELECT} WHERE rv.id = $1`, [inserted.rows[0].id]);
+    res.status(201).json({ review: toReview(result.rows[0]) });
+  } catch (error) {
+    if (error.code === "23505") {
+      // unique_violation on (user_id, restaurant_id)
+      return res.status(409).json({ error: "You've already reviewed this restaurant. Edit your review instead." });
+    }
+    if (error.code === "23503") {
+      // foreign_key_violation: restaurant doesn't exist
+      return res.status(404).json({ error: "Restaurant not found." });
+    }
+    console.error("Error creating review:", error);
+    res.status(500).json({ error: "Failed to post your review." });
   }
 });
 
