@@ -61,7 +61,7 @@ jobs:
           cache-to: type=gha,scope=frontend,mode=max
 
       - name: Configure kubectl
-        run: doctl kubernetes cluster kubeconfig save --expire-seconds 1800 "${{ vars.DOKS_CLUSTER_NAME }}"
+        run: doctl kubernetes cluster kubeconfig save --expiry-seconds 1800 "${{ vars.DOKS_CLUSTER_NAME }}"
 
       - name: Apply manifests with this commit's images
         run: |
