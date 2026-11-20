@@ -63,6 +63,22 @@ jobs:
       - name: Configure kubectl
         run: doctl kubernetes cluster kubeconfig save --expiry-seconds 1800 "${{ vars.DOKS_CLUSTER_NAME }}"
 
+      - name: Refresh registry pull credential
+        run: |
+          # Mint a fresh read-only DOCR credential every deploy so a stale or revoked
+          # one can never leave pods in ImagePullBackOff. Pods copy imagePullSecrets
+          # from the service account at creation, so new pods created by this deploy
+          # pick it up.
+          kubectl apply -f infrastructure/kubernetes/namespace.yaml
+          doctl registry docker-config "${{ vars.DOCR_REGISTRY_NAME }}" > "$RUNNER_TEMP/dockerconfig.json"
+          kubectl -n ece1779 create secret generic registry-pull \
+            --type=kubernetes.io/dockerconfigjson \
+            --from-file=.dockerconfigjson="$RUNNER_TEMP/dockerconfig.json" \
+            --dry-run=client -o yaml | kubectl apply -f -
+          rm -f "$RUNNER_TEMP/dockerconfig.json"
+          kubectl -n ece1779 patch serviceaccount default \
+            -p '{"imagePullSecrets":[{"name":"registry-pull"}]}'
+
       - name: Apply manifests with this commit's images
         run: |
           # Manifests carry a placeholder image; substitute on the runner so the
@@ -94,8 +110,17 @@ jobs:
           kubectl -n ece1779 rollout status deployment/backend --timeout=180s
           kubectl -n ece1779 rollout status deployment/frontend --timeout=180s
 
-      - name: Roll back on failure
+      # No automatic `rollout undo`: a rolling update already keeps the previous pods
+      # serving until the new ones are Ready, and undoing can revert to a revision
+      # that was itself broken. Print what went wrong instead. To roll back by hand:
+      #   kubectl -n ece1779 rollout undo deployment/<name>
+      - name: Diagnose failure
         if: failure()
         run: |
-          kubectl -n ece1779 rollout undo deployment/backend || true
-          kubectl -n ece1779 rollout undo deployment/frontend || true
+          kubectl -n ece1779 get pods,deploy -o wide || true
+          kubectl -n ece1779 get events --sort-by=.lastTimestamp | tail -30 || true
+          for d in backend frontend; do
+            echo "=== $d ==="
+            kubectl -n ece1779 describe deployment/$d | tail -25 || true
+            kubectl -n ece1779 logs deployment/$d --tail=50 || true
+          done

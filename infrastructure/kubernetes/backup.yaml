@@ -1,0 +1,79 @@
+# Nightly logical backup of the application database.
+# Dumps go to a separate volume from the database's own, so losing the data
+# volume does not also lose the backups. See infrastructure/BACKUP_RESTORE.md.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: postgres-backup-pvc
+  namespace: ece1779
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: do-block-storage
+  resources:
+    requests:
+      storage: 5Gi
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: postgres-backup
+  namespace: ece1779
+spec:
+  schedule: "0 7 * * *"          # 07:00 UTC, roughly 02:00-03:00 in Toronto
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: backup
+              image: postgres:16-alpine
+              env:
+                - name: PGHOST
+                  value: postgres
+                - name: PGDATABASE
+                  valueFrom:
+                    configMapKeyRef:
+                      name: app-config
+                      key: POSTGRES_DB
+                - name: PGUSER
+                  valueFrom:
+                    configMapKeyRef:
+                      name: app-config
+                      key: POSTGRES_USER
+                - name: PGPASSWORD
+                  valueFrom:
+                    secretKeyRef:
+                      name: app-secrets
+                      key: POSTGRES_PASSWORD
+              command:
+                - sh
+                - -ec
+                - |
+                  f="/backups/${PGDATABASE}-$(date -u +%Y%m%dT%H%M%SZ).dump"
+                  # Custom format: compressed, and restorable with pg_restore.
+                  pg_dump --format=custom --file="$f.partial"
+                  mv "$f.partial" "$f"
+                  echo "wrote $f"
+                  # Keep 7 days of backups.
+                  find /backups -name '*.dump' -mtime +7 -print -delete
+                  ls -lh /backups
+              resources:
+                requests:
+                  cpu: 50m
+                  memory: 64Mi
+                limits:
+                  cpu: 500m
+                  memory: 256Mi
+              volumeMounts:
+                - name: backups
+                  mountPath: /backups
+          volumes:
+            - name: backups
+              persistentVolumeClaim:
+                claimName: postgres-backup-pvc
