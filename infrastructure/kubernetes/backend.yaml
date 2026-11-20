@@ -25,6 +25,8 @@ spec:
               value: production
             - name: PORT
               value: "3000"
+            - name: FIREBASE_PROJECT_ID
+              value: ece1779-28b5d
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:

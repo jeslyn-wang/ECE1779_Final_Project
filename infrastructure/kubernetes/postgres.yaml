@@ -32,6 +32,9 @@ spec:
           ports:
             - containerPort: 5432
           env:
+            # Block storage mounts with a lost+found dir; initdb needs an empty subdir.
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
             - name: POSTGRES_DB
               valueFrom:
                 configMapKeyRef:
