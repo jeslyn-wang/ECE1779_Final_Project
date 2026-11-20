@@ -72,6 +72,23 @@ jobs:
           kubectl apply -f infrastructure/kubernetes/namespace.yaml
           kubectl apply -f infrastructure/kubernetes/
 
+      - name: Run database migrations
+        run: |
+          # Ship the SQL as a ConfigMap, then run it as a one-off Job.
+          kubectl -n ece1779 create configmap db-sql \
+            --from-file=database/001_initial_schema.sql \
+            --from-file=database/002_api_contract_updates.sql \
+            --from-file=database/seed.sql \
+            --dry-run=client -o yaml | kubectl apply -f -
+          # Jobs are immutable, so remove the previous run before applying.
+          kubectl -n ece1779 delete job db-migrate --ignore-not-found --wait=true
+          kubectl apply -f infrastructure/kubernetes/jobs/db-migrate.yaml
+          if ! kubectl -n ece1779 wait --for=condition=complete job/db-migrate --timeout=180s; then
+            kubectl -n ece1779 logs job/db-migrate --all-containers --tail=100 || true
+            exit 1
+          fi
+          kubectl -n ece1779 logs job/db-migrate
+
       - name: Verify rollout
         run: |
           kubectl -n ece1779 rollout status deployment/backend --timeout=180s
