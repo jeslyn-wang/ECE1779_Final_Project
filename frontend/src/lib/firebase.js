@@ -11,8 +11,12 @@ const config = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
-export const firebaseConfigured = Boolean(config.apiKey && config.authDomain && config.projectId);
-export const firebaseAuth = firebaseConfigured ? getAuth(initializeApp(config)) : null;
+export const firebaseConfigured = Boolean(
+  config.apiKey &&
+  config.authDomain &&
+  config.projectId &&
+  config.appId
+);export const firebaseAuth = firebaseConfigured ? getAuth(initializeApp(config)) : null;
 
 /** Turns Firebase error codes into messages people can act on. */
 export function firebaseErrorMessage(error) {

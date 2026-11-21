@@ -1,0 +1,62 @@
+# Applied by the CD workflow (not by `kubectl apply -f infrastructure/kubernetes/`,
+# which is non-recursive). The workflow first creates the `db-sql` ConfigMap from
+# database/*.sql and deletes any previous run, because Jobs are immutable.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: db-migrate
+  namespace: ece1779
+spec:
+  backoffLimit: 3
+  ttlSecondsAfterFinished: 3600
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: migrate
+          image: postgres:16-alpine
+          env:
+            - name: PGHOST
+              value: postgres
+            - name: PGDATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  key: POSTGRES_DB
+            - name: PGUSER
+              valueFrom:
+                configMapKeyRef:
+                  name: app-config
+                  key: POSTGRES_USER
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: app-secrets
+                  key: POSTGRES_PASSWORD
+          command:
+            - sh
+            - -ec
+            - |
+              until pg_isready; do echo "waiting for postgres"; sleep 2; done
+
+              # Schema files are idempotent, so they run on every deploy.
+              psql -v ON_ERROR_STOP=1 -f /sql/001_initial_schema.sql
+              psql -v ON_ERROR_STOP=1 -f /sql/002_api_contract_updates.sql
+
+              # seed.sql is mock data that overwrites rows on conflict, so only
+              # load it into an empty database, never over real data.
+              if [ "$(psql -tA -c 'SELECT COUNT(*) FROM restaurants')" = "0" ]; then
+                echo "restaurants empty: loading seed data"
+                psql -v ON_ERROR_STOP=1 -f /sql/seed.sql
+              else
+                echo "restaurants not empty: skipping seed"
+              fi
+              echo "database migration complete"
+          volumeMounts:
+            - name: sql
+              mountPath: /sql
+              readOnly: true
+      volumes:
+        - name: sql
+          configMap:
+            name: db-sql

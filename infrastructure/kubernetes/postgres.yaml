@@ -18,6 +18,10 @@ metadata:
   namespace: ece1779
 spec:
   replicas: 1
+  # One ReadWriteOnce volume and one Postgres process: stop the old pod before
+  # starting the new one (a rolling update would run two against the same data).
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: postgres
@@ -32,6 +36,9 @@ spec:
           ports:
             - containerPort: 5432
           env:
+            # Block storage mounts with a lost+found dir; initdb needs an empty subdir.
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
             - name: POSTGRES_DB
               valueFrom:
                 configMapKeyRef:
@@ -47,6 +54,13 @@ spec:
                 secretKeyRef:
                   name: app-secrets
                   key: POSTGRES_PASSWORD
+          resources:
+            requests:
+              cpu: 200m
+              memory: 256Mi
+            limits:
+              cpu: "1"
+              memory: 768Mi
           volumeMounts:
             - name: postgres-data
               mountPath: /var/lib/postgresql/data
