@@ -1,6 +1,6 @@
 # Sree integration checklist
 
-This document records standalone analysis and work for the restaurant data and integration portion of the project. No existing team files were modified.
+This document records standalone analysis and work for the restaurant data and integration portion of the project.
 
 ## Work added
 
@@ -48,4 +48,4 @@ The frontend contract expects:
 
 ## Project integration gap observed
 
-The current mock API and React UI support the complete product experience, but the real Express routes only implement health and restaurant reads. Sree's data work should not be treated as complete integration until Joshi exposes the missing contract endpoints and Wasilat switches the deployed frontend from mock mode to the real HTTP API.
+The current mock API and React UI support the complete product experience, but the real Express routes only implement health and restaurant reads. 
