@@ -1,0 +1,61 @@
+# Local minikube deployment: reuses the production manifests and adapts only what
+# differs (images built inside minikube, local storage class, local DB password).
+# Render and apply with:
+#   kubectl kustomize --load-restrictor=LoadRestrictionsNone infrastructure/minikube \
+#     | kubectl --context minikube apply -f -
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: ece1779
+
+resources:
+  - ../kubernetes/namespace.yaml
+  - ../kubernetes/configmap.yaml
+  - ../kubernetes/postgres.yaml
+  - ../kubernetes/backend.yaml
+  - ../kubernetes/frontend.yaml
+  - ../kubernetes/jobs/db-migrate.yaml
+
+# Images are built into minikube's Docker daemon, not pulled from DOCR.
+images:
+  - name: registry.digitalocean.com/OUR_REGISTRY/ece1779-backend
+    newName: ece1779-backend
+    newTag: local
+  - name: registry.digitalocean.com/OUR_REGISTRY/ece1779-frontend
+    newName: ece1779-frontend
+    newTag: local
+
+patches:
+  # minikube has no do-block-storage class; its default is "standard" (hostPath).
+  - target: { kind: PersistentVolumeClaim, name: postgres-pvc }
+    patch: |-
+      - op: replace
+        path: /spec/storageClassName
+        value: standard
+  # Local images must not be pulled from a registry.
+  - target: { kind: Deployment, name: backend }
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0/imagePullPolicy
+        value: IfNotPresent
+  - target: { kind: Deployment, name: frontend }
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0/imagePullPolicy
+        value: IfNotPresent
+
+# Local-only password (never used in production, where app-secrets is created by hand).
+secretGenerator:
+  - name: app-secrets
+    literals:
+      - POSTGRES_PASSWORD=local-dev-password
+
+# SQL for the migration Job, same files CD ships to the cluster.
+configMapGenerator:
+  - name: db-sql
+    files:
+      - ../../database/001_initial_schema.sql
+      - ../../database/002_api_contract_updates.sql
+      - ../../database/seed.sql
+
+generatorOptions:
+  disableNameSuffixHash: true
