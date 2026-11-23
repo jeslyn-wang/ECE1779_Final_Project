@@ -85,6 +85,7 @@ jobs:
           # repo files stay unchanged and pods never pull the placeholder.
           sed -i "s#registry.digitalocean.com/OUR_REGISTRY/ece1779-backend:v1#${REGISTRY}/ece1779:backend-${TAG}#" infrastructure/kubernetes/backend.yaml
           sed -i "s#registry.digitalocean.com/OUR_REGISTRY/ece1779-frontend:v1#${REGISTRY}/ece1779:frontend-${TAG}#" infrastructure/kubernetes/frontend.yaml
+          sed -i "s#registry.digitalocean.com/OUR_REGISTRY/ece1779-backend:v1#${REGISTRY}/ece1779:backend-${TAG}#" infrastructure/kubernetes/jobs/db-migrate.yaml
           kubectl apply -f infrastructure/kubernetes/namespace.yaml
           kubectl apply -f infrastructure/kubernetes/
 
@@ -95,6 +96,11 @@ jobs:
             --from-file=database/001_initial_schema.sql \
             --from-file=database/002_api_contract_updates.sql \
             --from-file=database/seed.sql \
+            --dry-run=client -o yaml | kubectl apply -f -
+          # Importer script + dataset for the Job's restaurant-import step.
+          kubectl -n ece1779 create configmap db-import \
+            --from-file=backend/scripts/import_restaurants.js \
+            --from-file=database/restaurant-data-osm.json \
             --dry-run=client -o yaml | kubectl apply -f -
           # Jobs are immutable, so remove the previous run before applying.
           kubectl -n ece1779 delete job db-migrate --ignore-not-found --wait=true
