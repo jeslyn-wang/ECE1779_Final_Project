@@ -56,6 +56,10 @@ configMapGenerator:
       - ../../database/001_initial_schema.sql
       - ../../database/002_api_contract_updates.sql
       - ../../database/seed.sql
+  - name: db-import
+    files:
+      - ../../backend/scripts/import_restaurants.js
+      - ../../database/restaurant-data-osm.json
 
 generatorOptions:
   disableNameSuffixHash: true

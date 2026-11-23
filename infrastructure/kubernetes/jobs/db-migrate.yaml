@@ -12,7 +12,8 @@ spec:
   template:
     spec:
       restartPolicy: OnFailure
-      containers:
+      # Step 1 (initContainer): schema + seed. Step 2 (container): restaurant import.
+      initContainers:
         - name: migrate
           image: postgres:16-alpine
           env:
@@ -56,7 +57,37 @@ spec:
             - name: sql
               mountPath: /sql
               readOnly: true
+      containers:
+        # Loads the OSM restaurant dataset only when no real restaurants exist yet
+        # (--if-empty), so deploys never overwrite live data. Uses the backend image
+        # for its `pg` dependency; the script and data come from the db-import ConfigMap.
+        - name: import
+          image: registry.digitalocean.com/OUR_REGISTRY/ece1779-backend:v1
+          env:
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: app-secrets
+                  key: POSTGRES_PASSWORD
+            - name: DATABASE_URL
+              value: postgres://restaurant_user:$(POSTGRES_PASSWORD)@postgres:5432/restaurant_app
+          command:
+            - sh
+            - -ec
+            - |
+              # ESM needs a package.json/.mjs; link node_modules so `pg` resolves.
+              mkdir -p /tmp/app && cd /tmp/app
+              ln -s /app/node_modules node_modules
+              cp /import/import_restaurants.js import.mjs
+              node import.mjs --import --if-empty --file /import/restaurant-data-osm.json
+          volumeMounts:
+            - name: import
+              mountPath: /import
+              readOnly: true
       volumes:
         - name: sql
           configMap:
             name: db-sql
+        - name: import
+          configMap:
+            name: db-import

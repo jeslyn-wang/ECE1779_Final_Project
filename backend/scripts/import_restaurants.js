@@ -67,6 +67,16 @@ async function importDatabase() {
   const pool = new Pool({ connectionString: databaseUrl });
 
   try {
+    // --if-empty: only load when the table holds nothing but the mock seed rows
+    // (ids 9001-9015), so reruns and deploys never overwrite real or edited data.
+    if (process.argv.includes("--if-empty")) {
+      const { rows } = await pool.query("SELECT COUNT(*)::int AS n FROM restaurants WHERE id NOT BETWEEN 9001 AND 9015");
+      if (rows[0].n > 0) {
+        console.log(`Restaurant import skipped: ${rows[0].n} non-seed restaurants already present.`);
+        return;
+      }
+    }
+
     const columns = await pool.query(`
       SELECT column_name
       FROM information_schema.columns
